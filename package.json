@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "./src/build.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "node ./src/build.js",
     "example": "vite --host 0.0.0.0",
