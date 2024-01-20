@@ -1,0 +1,28 @@
+{
+  "name": "@wal-li/icon",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./src/build.js",
+  "scripts": {
+    "build": "node ./src/build.js",
+    "example": "vite --host 0.0.0.0",
+    "example:build": "vite build",
+    "beta": "npm publish --access public --tag beta"
+  },
+  "keywords": [
+    "icon",
+    "ionicons",
+    "vue"
+  ],
+  "author": "HaoVA <hi@haova.me> (https://www.haova.me)",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "change-case": "^5.4.2",
+    "cli-progress": "^3.12.0",
+    "jsdom": "^23.2.0",
+    "vite": "^4.4.9",
+    "vue": "^3.3.4"
+  }
+}

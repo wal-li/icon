@@ -1,0 +1,9 @@
+# git ignore
+node_modules
+coverage
+tmp
+
+# npm ignore
+src
+ionicons
+example
